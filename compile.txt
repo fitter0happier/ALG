@@ -1,0 +1,25 @@
+javac -Xlint alg/*.java; ---- compile from folder above alg (Example: 07/alg, compile from 07)
+java -Xss50m -Xms64m -Xmx1024m alg.Main < datapub/pub01.in ---- test your program
+cat datapub/pub01.out ---- compare your output with required output
+
+
+Folder structure:
+--TASK
+----alg
+------Main.java
+------Class.java
+
+Useful shortcuts:
+Shift + Tab - remove one Tab
+Cmd + / - comment multiple lines/uncomment them
+Cmd + Backspace - remove entire line
+
+for (int i = 0; i < ___; ++i) {
+
+}
+
+take your Main.java structure from ALG folder
+
+every method that reads an input, has to have (throws IOException) 
+
+DELETE BINARY FILES (.class extension) AND COMMENTS INSIDE YOUR FILES BEFORE COMPRESSING
