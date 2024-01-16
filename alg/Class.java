@@ -18,4 +18,12 @@ public class Class {
     public void saySomething() {
         System.out.println(arg1);
     }
+
+    public void calculate() {
+        this.arg1 *= 2;
+    }
+
+    public void printAnswer() {
+        System.out.println(arg1);
+    }
 }

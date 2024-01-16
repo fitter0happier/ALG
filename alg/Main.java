@@ -21,5 +21,6 @@ public class Main {
 
         //how to call class methodss
         object.saySomething();
+        object.printAnswer();
     }
 }
