@@ -1,7 +1,5 @@
 The algorithms I implemented during my Algorithms unversity course.
 
-Language used: JAVA
-
 Included here:
 - Prefix Sums
 - Recursion with backtracking
